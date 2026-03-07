@@ -2,7 +2,7 @@
 
 * {
     font-family: "MesloLGS Nerd Font Mono Bold";
-    font-size: 16px;
+    font-size: 14px;
     min-height: 0;
     font-weight: bold;
 }
@@ -76,8 +76,8 @@ button:hover {
 }
 
 #clock {
-    color: @maroon;
-    border-bottom: 2px solid @maroon;
+    color: @mauve;
+    border-bottom: 2px solid @mauve;
 }
 
 #clock.date {
@@ -86,13 +86,13 @@ button:hover {
 }
 
 #pulseaudio {
-    color: @blue;
-    border-bottom: 2px solid @blue;
+    color: @mauve;
+    border-bottom: 2px solid @mauve;
 }
 
 #network {
-    color: @yellow;
-    border-bottom: 2px solid @yellow;
+    color: @mauve;
+    border-bottom: 2px solid @mauve;
 }
 
 #idle_inhibitor {
@@ -105,8 +105,8 @@ button:hover {
 }
 
 #battery {
-    color: @green;
-    border-bottom: 2px solid @green;
+    color: @mauve;
+    border-bottom: 2px solid @mauve;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
