@@ -6,3 +6,14 @@
 --
 -- Or remove existing autocmds by their group name (which is prefixed with `lazyvim_` for the defaults)
 -- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
+
+-- Auto-convert .ipynb to .py (percent format) on open via jupytext
+vim.api.nvim_create_autocmd("BufReadPre", {
+  pattern = "*.ipynb",
+  callback = function()
+    local ipynb = vim.fn.expand("%:p")
+    local py = vim.fn.expand("%:p:r") .. ".py"
+    vim.fn.system("jupytext --to py:percent " .. vim.fn.shellescape(ipynb))
+    vim.cmd("edit " .. vim.fn.fnameescape(py))
+  end,
+})

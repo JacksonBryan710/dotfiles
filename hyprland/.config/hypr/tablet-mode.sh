@@ -20,9 +20,9 @@ while true; do
             iio-hyprland &>/dev/null &
         else
             pkill iio-hyprland 2>/dev/null
-            hyprctl keyword monitor "eDP-1,preferred,auto,1.25,transform,0"
+            hyprctl keyword monitor "eDP-1,preferred,auto,1,transform,0"
         fi
         prev_state=$state
     fi
-    sleep 0.1
+    sleep 0.5
 done
