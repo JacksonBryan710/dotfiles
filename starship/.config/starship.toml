@@ -52,7 +52,7 @@ overlay1 = "#717C7C"
 overlay0 = "#43436C"
 surface2 = "#363646"
 surface1 = "#2A2A37"
-surface0 = "#2A2A37"
+surface0 = "#1F1F28"
 base = "#1F1F28"
 mantle = "#1C1C26"
 crust = "#16161D"
@@ -197,7 +197,7 @@ style = "bg:teal"
 format = '[[ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [docker_context]
-symbol = ""
+symbol = ""
 style = "bg:mauve"
 format = '[[ $symbol( $context) ](fg:base bg:mauve)]($style)'
 
