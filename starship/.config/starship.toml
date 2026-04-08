@@ -6,10 +6,10 @@ $os\
 $username\
 [](bg:teal fg:surface1)\
 $directory\
-[](fg:teal bg:blue)\
+[](fg:teal bg:green)\
 $git_branch\
 $git_status\
-[](fg:blue bg:sapphire)\
+[](fg:green bg:teal)\
 $c\
 $rust\
 $golang\
@@ -19,7 +19,7 @@ $java\
 $kotlin\
 $haskell\
 $python\
-[](fg:sapphire bg:mauve)\
+[](fg:teal bg:mauve)\
 $docker_context\
 $time\
 [ ](fg:mauve)\
@@ -144,57 +144,57 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "bg:blue"
-format = '[[ $symbol $branch ](fg:base bg:blue)]($style)'
+style = "bg:teal"
+format = '[[ $symbol $branch ](fg:base bg:green)]($style)'
 
 [git_status]
-style = "bg:blue"
-format = '[[($all_status$ahead_behind )](fg:base bg:blue)]($style)'
+style = "bg:teal"
+format = '[[($all_status$ahead_behind )](fg:base bg:green)]($style)'
 
 [nodejs]
 symbol = ""
-style = "bg:sapphire"
-format = '[[ $symbol( $version) ](fg:base bg:sapphire)]($style)'
+style = "bg:teal"
+format = '[[ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [c]
 symbol = " "
-style = "bg:sapphire"
-format = '[[ $symbol( $version) ](fg:base bg:sapphire)]($style)'
+style = "bg:teal"
+format = '[[ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [rust]
 symbol = ""
-style = "bg:sapphire"
-format = '[[ $symbol( $version) ](fg:base bg:sapphire)]($style)'
+style = "bg:teal"
+format = '[[ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [golang]
 symbol = ""
-style = "bg:sapphire"
-format = '[[ $symbol( $version) ](fg:base bg:sapphire)]($style)'
+style = "bg:teal"
+format = '[[ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [php]
 symbol = ""
-style = "bg:sapphire"
-format = '[[ $symbol( $version) ](fg:base bg:sapphire)]($style)'
+style = "bg:teal"
+format = '[[ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [java]
 symbol = " "
-style = "bg:sapphire"
-format = '[[ $symbol( $version) ](fg:base bg:sapphire)]($style)'
+style = "bg:teal"
+format = '[[ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [kotlin]
 symbol = ""
-style = "bg:sapphire"
-format = '[[ $symbol( $version) ](fg:base bg:sapphire)]($style)'
+style = "bg:teal"
+format = '[[ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [haskell]
 symbol = ""
-style = "bg:sapphire"
-format = '[[ $symbol( $version) ](fg:base bg:sapphire)]($style)'
+style = "bg:teal"
+format = '[[ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [python]
 symbol = ""
-style = "bg:sapphire"
-format = '[[ $symbol( $version) ](fg:base bg:sapphire)]($style)'
+style = "bg:teal"
+format = '[[ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [docker_context]
 symbol = ""
